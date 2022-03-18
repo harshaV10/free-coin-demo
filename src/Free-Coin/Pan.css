@@ -1,0 +1,91 @@
+.pan-container {
+  width: 98%;
+  height: 70vh;
+  box-sizing: border-box;
+  background-color: #1c221c;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.9);
+}
+.pan-inputs {
+  padding-top: 2rem;
+}
+.pan-inputs input {
+  padding-top: 0.4rem;
+}
+.note {
+  padding-left: 1rem;
+  padding-top: 3rem;
+  color: rgba(255, 255, 255, 0.466);
+}
+
+.submit-pan {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btn-submit-pan {
+  width: 90px;
+  height: 40px;
+  border-radius: 2px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 14px;
+  background-color: #ff0035;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.9);
+}
+.btn-submit-pan-hide {
+  display: block;
+}
+
+/* modal */
+.modal {
+  width: 99%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: flex-end;
+}
+.modal-show {
+  width: 99%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.modal-overlay {
+  width: 300px;
+  height: 80px;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  color: green;
+  font-weight: 600;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.432);
+}
+
+.modal-overlay-red {
+  width: 300px;
+  height: 90px;
+  margin-bottom: 0.5rem;
+  /* margin-left: 36%; */
+  padding: 1.5rem;
+  color: red;
+  font-weight: 600;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.432);
+}
+
+.modal-overlay-red-hide {
+  display: none;
+}

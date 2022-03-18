@@ -1,0 +1,18 @@
+.notice-container {
+  width: 98%;
+  height: 30vh;
+  box-sizing: border-box;
+  background-color: #1c221c;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.9);
+}
+
+.notice-container h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  padding-top: 2rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 300;
+}
