@@ -1,12 +1,15 @@
+
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import {Routes, Route} from 'react-router-dom'
 
 //css file
 import './Header.css'
+
 //Images
 import Logo from "../images/logo-free-coins.png"
 import pic from "../images/profile.png"
+
 //Material Ui Icons
 import ArrowLeft from '@mui/icons-material/ArrowForwardIos';
 import ArrowForward from '@mui/icons-material/ArrowForward';
@@ -165,5 +168,3 @@ return (
 
 export default Header;
 
-
-// close btn = do to operate this.. we should have another div over new-side-bar
